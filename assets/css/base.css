@@ -1,0 +1,47 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --primary-color: #F15D46;
+    --second-color: #a7300c;
+    --border-color: #dbdbdb;
+    --desc-color: #999;
+    --star-gold-color: #FFCE3E;
+
+    --max-w:1100px;
+    --md: 4px;
+}
+
+* ,*::after, *::before{
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Arizonia', cursive;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+.color-p{
+    color:var(--primary-color);
+}
+
+body{
+    overflow-x: hidden;
+}

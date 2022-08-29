@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacific Travel</title>
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-5.15.2-web/fontawesome-free-5.15.2-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arizonia&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <script src="/assets/js/main.js"></script>
+</head>
+
+<body>
+    <div class="header header-3">
+        <div class="navbar">
+            <div class="navbar-top">
+                <div class="navbar-logo">
+                    <a href="/index.html" class="navbar-logo__link">
+                        <h3>Pacific</h3>
+                        <span class="color-p">TRAVEL AGENCY</span>
+                    </a>
+                </div>
+                <ul class="navbar-list">
+                    <a href="/index.html" class="navbar-link">
+                        <li class="navbar__item">Home</li>
+                    </a>
+
+                    <a href="/about.html" class="navbar-link">
+                        <li class="navbar__item">About</li>
+                    </a>
+
+                    <a href="/destination.html" class="navbar-link">
+                        <li class="navbar__item  color-p">Destination</li>
+                    </a>
+
+                    <a href="/hotel.html" class="navbar-link">
+                        <li class="navbar__item">Hotel</li>
+                    </a>
+
+                    <a href="/blog.html" class="navbar-link">
+                        <li class="navbar__item">Blog</li>
+                    </a>
+
+                    <a href="/contact.html" class="navbar-link">
+                        <li class="navbar__item">Contact</li>
+                    </a>
+                </ul>
+                <div class="navbar-tablet-mobie" onclick="openNavbar()">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+        <div class="header-text">
+            <h1>Destination</h1>
+
+        </div>
+    </div>
+
+    <div class="content grid ">
+
+        <!-- search tour -->
+
+        <div class="search-tour search-tour-2 wide">
+            <div class="search-tour__item">
+                <h3>DESTINATION </h3>
+                <div class="input-search">
+                    <input type="text" name="DESTINATION" id="" placeholder="Search place">
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+            <div class="search-tour__item">
+                <h3>CHECK-IN DATE </h3>
+                <div class="input-search">
+                    <input type="text" name="CHECK-IN DATE " id="" placeholder="Check in date">
+                    <i class="fas fa-calendar-alt"></i>
+                </div>
+            </div>
+            <div class="search-tour__item">
+                <h3>CHECK-OUT DATE</h3>
+                <div class="input-search">
+                    <input type="text" name="CHECK-OUT DATE" id="" placeholder="Check out date">
+                    <i class="fas fa-calendar-alt"></i>
+                </div>
+            </div>
+            <div class="search-tour__item">
+                <h3>PRICE LIMIT</h3>
+                <div class="input-search">
+                    <input type="text" name="PRICE LIMIT" id="" placeholder="$300.000">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>  
+            <button class="search-tour__item">SEARCH</button>
+            <a href="">
+                <div class="search-tour-opt">Search tour</div>
+            </a>
+            <a href="">
+                <div class="hotel-opt ">Hotel</div>
+            </a>
+        </div>
+       
+        <div class="selection  content-des">
+            
+            <div class="selection-tours-2 wide">
+                <div class="selection-label">
+                    <h4 class="font-ariz">Destination</h4>
+                    <h2>Tour Destination</h2>
+                </div>
+                <div class="selection-destination-2">
+                    <div class="row">
+                        <div class="selection-item-2 col l-4 m-6 c-12">
+                            <div class="selection-item-1">
+                                <div class="selection-item__price">$5500/person</div>
+                                <div class="selection-item__option">
+                                    <span>7 DAY TOURS</span>
+                                    <h5>Banaue Rice Terraces</h5>
+                                    <p>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Banaue, Ifugao, Philippines
+                                    </p>
+                                    <div class="option-combo">
+                                        <i class="fas fa-hot-tub"></i>
+                                        <span>2</span>
+                                        <i class="fas fa-bed"></i>
+                                        <span>3</span>
+                                        <i class="fas fa-umbrella-beach"></i>
+                                        <span>Near Beach</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="selection-item-2 col l-4 m-6 c-12">
+                            <div class="selection-item--2">
+                                <div class="selection-item__price">$5500/person</div>
+                                <div class="selection-item__option">
+                                    <span>7 DAY TOURS</span>
+                                    <h5>Banaue Rice Terraces</h5>
+                                    <p>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Banaue, Ifugao, Philippines
+                                    </p>
+                                    <div class="option-combo">
+                                        <i class="fas fa-hot-tub"></i>
+                                        <span>2</span>
+                                        <i class="fas fa-bed"></i>
+                                        <span>3</span>
+                                        <i class="fas fa-umbrella-beach"></i>
+                                        <span>Near Beach</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="selection-item-2 col l-4 m-6 c-12">
+                            <div class="selection-item-3">
+                                <div class="selection-item__price">$5500/person</div>
+                                <div class="selection-item__option">
+                                    <span>7 DAY TOURS</span>
+                                    <h5>Banaue Rice Terraces</h5>
+                                    <p>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Banaue, Ifugao, Philippines
+                                    </p>
+                                    <div class="option-combo">
+                                        <i class="fas fa-hot-tub"></i>
+                                        <span>2</span>
+                                        <i class="fas fa-bed"></i>
+                                        <span>3</span>
+                                        <i class="fas fa-umbrella-beach"></i>
+                                        <span>Near Beach</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="selection-item-2 col l-4 m-6 c-12">
+                            <div class="selection-item-4">
+                                <div class="selection-item__price">$5500/person</div>
+                                <div class="selection-item__option">
+                                    <span>7 DAY TOURS</span>
+                                    <h5>Banaue Rice Terraces</h5>
+                                    <p>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Banaue, Ifugao, Philippines
+                                    </p>
+                                    <div class="option-combo">
+                                        <i class="fas fa-hot-tub"></i>
+                                        <span>2</span>
+                                        <i class="fas fa-bed"></i>
+                                        <span>3</span>
+                                        <i class="fas fa-umbrella-beach"></i>
+                                        <span>Near Beach</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="selection-item-2 col l-4 m-6 c-12">
+                            <div class="selection-item-5">
+                                <div class="selection-item__price">$5500/person</div>
+                                <div class="selection-item__option">
+                                    <span>7 DAY TOURS</span>
+                                    <h5>Banaue Rice Terraces</h5>
+                                    <p>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Banaue, Ifugao, Philippines
+                                    </p>
+                                    <div class="option-combo">
+                                        <i class="fas fa-hot-tub"></i>
+                                        <span>2</span>
+                                        <i class="fas fa-bed"></i>
+                                        <span>3</span>
+                                        <i class="fas fa-umbrella-beach"></i>
+                                        <span>Near Beach</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="selection-item-2 col l-4 m-6 c-12">
+                            <div class="selection-item-6 c-12">
+                                <div class="selection-item__price">$5500/person</div>
+                                <div class="selection-item__option">
+                                    <span>7 DAY TOURS</span>
+                                    <h5>Banaue Rice Terraces</h5>
+                                    <p>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Banaue, Ifugao, Philippines
+                                    </p>
+                                    <div class="option-combo">
+                                        <i class="fas fa-hot-tub"></i>
+                                        <span>2</span>
+                                        <i class="fas fa-bed"></i>
+                                        <span>3</span>
+                                        <i class="fas fa-umbrella-beach"></i>
+                                        <span>Near Beach</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination wide">
+                <ul>
+                    <li>
+                        <i class="fas fa-chevron-left"></i>  
+                    </li>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>
+                        <i class="fas fa-chevron-right"></i>  
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="blog wide">
+               
+                <div class="blog-quote">
+                    <h2>WE ARE PACIFIC A TRAVEL AGENCY</h2>
+                    <p>We can manage your dream building A small river named Duden flows by their place</p>
+                    <button>Ask For A Quote</button>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="footer-content wide">
+                    <div class=" row">
+                        <div class="footer-item footer-about col l-3 m-6 c-12">
+                            <h3>About</h3>
+                            <span>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.</span>
+                            <div>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                        </div>
+                        <div class="footer-item footer-info col l-3 m-6 c-12">
+                            <h3>Information</h3>
+                            <ul>
+                                <li>
+                                    <a href="">Online Enquiry</a>
+                                </li>
+                                <li>
+                                    <a href="">General Enquiries</a>
+                                </li>
+                                <li>
+                                    <a href="">Booking Conditions</a>
+                                </li>
+                                <li>
+                                    <a href="">Privacy and Policy</a>
+                                </li>
+                                <li>
+                                    <a href="">Refund Policy</a>
+                                </li>
+                                <li>
+                                    <a href="">Call Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-item footer-exp col l-3 m-6 c-12">
+                            <h3>Experience</h3>
+                            <ul>
+                                <li>
+                                    <a href="">Adventure</a>
+                                </li>
+                                <li>
+                                    <a href="">Hotel and Restaurant</a>
+                                </li>
+                                <li>
+                                    <a href="">Beach</a>
+                                </li>
+                                <li>
+                                    <a href="">Nature</a>
+                                </li>
+                                <li>
+                                    <a href="">Camping</a>
+                                </li>
+                                <li>
+                                    <a href="">Party</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-item footer-questions col l-3 m-6 c-12">
+                            <h3>Have A Questions?</h3>
+                            <ul>
+                                <li>
+                                    <span >
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        203 Fake St. Mountain View, San Francisco, California, USA
+                                    </span>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fas fa-phone-alt"></i>
+                                        +2 392 3929 210</a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="far fa-envelope"></i>
+                                        info@yourdomain.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <span > ༼ つ ◕_◕ ༽つ Clone by <a href="https://www.facebook.com/douty1412/">Douty</a></span>
+            </div>
+        </div>
+    </div>
+
+</html>

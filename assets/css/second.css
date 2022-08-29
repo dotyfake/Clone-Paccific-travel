@@ -1,0 +1,9 @@
+/* header */
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background: url("https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/nav-background.jpg") center/ cover fixed   no-repeat ;
+    color: var(--white-color);
+position: relative;
+}

@@ -1,0 +1,980 @@
+/* header */
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background: url("https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/nav-background.jpg") center/ cover fixed   no-repeat ;
+    color: var(--white-color);
+position: relative;
+}
+
+.header-2{
+    width: 100%;
+    height: 100vh;
+    background: url('https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/feedback-bg.jpg') center/ cover fixed   no-repeat ;
+    color: var(--white-color);
+position: relative;
+}
+.header-3{
+    width: 100%;
+    height: 100vh;
+    background: url('https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/ticket2.jpg') center/ cover fixed   no-repeat ;
+    color: var(--white-color);
+position: relative;
+}
+.header-4{
+    width: 100%;
+    height: 100vh;
+    background: url('https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/ticket6.jpg') center/ cover fixed   no-repeat ;
+    color: var(--white-color);
+position: relative;
+}
+.header-5{
+    width: 100%;
+    height: 100vh;
+    background: url('https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/ask-bg.jpg') center/ cover fixed   no-repeat ;
+    color: var(--white-color);
+position: relative;
+}
+.header-6{
+    width: 100%;
+    height: 100vh;
+    background: url('https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/ticket4.jpg') center/ cover fixed   no-repeat ;
+    color: var(--white-color);
+position: relative;
+}
+
+.header::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+content: "";
+background-color: rgba(0, 0, 0, .3);
+}
+
+.navbar{
+    width: 100%;
+    min-height: 100px;
+    max-width: var(--max-w);
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.navbar-top{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo{
+    padding: 0 20px;
+}
+
+.navbar-logo h3{
+font-size: 2.5rem;
+margin: 0;
+}
+
+.navbar-logo__link{
+    color: var(--white-color);
+font-size: 1.1rem;
+font-weight: 600;
+display: block;
+}
+
+.navbar-logo__link span{
+    display: block;
+    line-height: 1.2rem;
+}
+
+.navbar-list{
+display: flex;
+
+}
+
+.navbar-tablet-mobie{
+    margin: 0 40px;
+    font-size: 3rem;
+    opacity: 0.8;
+    cursor: pointer;
+    display: none;
+}
+
+.navbar-tablet-mobie:hover{
+color: var(--primary-color);
+}
+
+.navbar__item:first-child:hover{
+color: var(--white-color);
+}
+
+.navbar-link{
+    color: var(--white-color);
+    font-size: 1.5rem;
+    font-weight: 500;
+padding: 20px;
+
+}
+
+.header-text{
+    width: 100%;
+    color: var(--white-color);
+    text-align: center;
+    max-width: var(--max-w);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.font-ariz{
+    font-family: "Arizonia", cursive;
+    font-size: 3rem;
+    opacity: 0.9;
+    color: var(--primary-color);
+
+}
+
+.header-text h1{
+    font-size: 5rem;
+}
+.header-text span{
+    font-size: 1.6rem;
+}
+
+/* Content */
+
+/* search tour */
+.content{
+position: relative;
+}
+
+.search-tour{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    transform: translateY(-50%);
+    background-color: var(--white-color);
+    border-radius: 4px;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 10px 23px  rgb(0 0 0 / 10%);
+
+}
+
+.search-tour-2{
+    transform: translateY(100%);
+
+}
+
+.search-tour__item{
+/* width: calc((var(--max-w))/5); */
+height: 100%;
+border-left: 1px solid var(--border-color);
+display: flex;
+justify-content: center;
+flex-direction: column;
+padding-left: 20px;
+/* margin-right: 20px; */
+}
+
+.search-tour__item:first-child{
+border: none;
+}
+
+.search-tour h3{
+font-size: 1.6rem;
+color: var(--primary-color);
+font-weight: 700;
+}
+
+.search-tour input::placeholder{
+color: var(--desc-color);
+font-size: 1.5rem;
+font-weight: 400;
+}
+
+.search-tour button,input{
+border: none;
+outline: none;
+}
+
+.search-tour button{
+    width: calc((var(--max-w))/5);
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  font-size: 1.8rem;
+  font-weight: 600;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+transition: background-color linear 0.15s;
+    }
+
+.search-tour button:hover{
+  background-color: var(--black-color);
+}
+
+.search-tour input{
+font-size: 1.5rem;
+width: 70%;
+}
+
+.input-search{
+    color: var(--desc-color);
+font-size: 1.6rem;
+display: flex;
+justify-content: space-between;
+}
+
+.input-search i{
+    padding-right: 25px;
+}
+
+.search-tour-opt,.hotel-opt{
+width: 150px;
+height: 46px;
+background: var(--white-color);
+border-top-right-radius: 4px;
+border-top-left-radius: 4px;
+position: absolute;
+top: -46px;
+left: 0;
+font-size: 1.8rem;
+color: var(--desc-color);
+line-height: 46px;
+text-align: center;
+transition: background-color linear 0.2s;
+}
+
+
+.hotel-opt{
+background: var(--primary-color);
+width: 100px;
+left: 155px;
+color: var(--white-color);
+}
+
+.search-tour-opt:hover{
+    background: var(--black-color);
+    color: var(--white-color);
+}
+.hotel-opt:hover{
+    background: var(--black-color);
+}
+
+/* info */
+
+.info{
+    background-color: var(--white-color);
+    
+}
+
+.info-content{
+  padding-top: 160px;
+}
+
+.info-img-item{
+position: relative;
+}
+
+.info-img-item > div{
+    padding: 28px;
+    margin-bottom: 28px ;
+}
+
+.info-img-item h3{
+font-size: 1.8rem;
+line-height: 3rem;
+font-weight: 500;
+color: var(--white-color);
+margin: 120px 0 0 0;
+}
+
+.info-img-item p{
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.info-img-item,.info-img-item > div{
+    height: 324px;
+}
+
+.info-img__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    left: 8px;
+    width: 115px;
+    height: 80px;
+    background-color: var(--primary-color);
+    fill: var(--white-color);
+}
+
+.info-img__wrapper svg{
+    width: 53px;
+    height: 53px;
+}
+
+.info-img__wrapper::before{
+content: "";
+position: absolute;
+top: -6px;
+left: 0;
+border-width: 6px 6px 0 0 ;
+border-style: solid;
+border-color: transparent var(--second-color) transparent transparent ;
+}
+
+.info-img__activities{
+background:linear-gradient(rgba(16, 137, 255, 0.5), rgba(16, 137, 255, 0.5)), url("https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/introduce1.jpg") center / cover no-repeat;
+}
+
+
+
+.info-img__arrangements{
+    background: linear-gradient(rgba(4, 137, 152, 0.5), rgba(4, 137, 152, 0.5)), url("https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/introduce2.jpg") center / cover no-repeat;
+
+}
+
+.info-img__private{
+    background: linear-gradient(rgba(4, 137, 152, 0.5), rgba(4, 137, 152, 0.5)), url("https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/introduce3.jpg") center / cover no-repeat;
+
+}
+
+.info-img__location{
+    background: linear-gradient(rgba(255, 89, 89, 0.5), rgba(255, 89, 89, 0.5)), url("https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/introduce4.jpg") center / cover no-repeat;
+
+}
+
+span > i {
+    color: var(--white-color);
+    font-size: 4.5rem;
+}
+
+
+.info-desc{
+    padding-left: 30px;
+    border: transparent solid;
+    border-width: 0 0 0 30px;
+}
+
+h4{
+    font-weight: 400;
+}
+
+h2{
+    font-size: 4rem;
+    font-weight: 550;
+    line-height: 56px;
+    color: var(--black-color);
+    margin: 0;
+}
+
+.info-desc p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #999;
+}
+
+.info-desc button{
+background-color: var(--primary-color);
+border-radius: 4px;
+color: var(--white-color);
+font-size: 16px;
+font-weight: 400;
+width: 184px;
+height: 54px;
+border: none;
+outline: none;
+}
+
+.info-desc button:hover{
+cursor: pointer;
+background-color: var(--black-color);
+}
+
+/* selection */
+
+.selection{
+    background-color: #F9FAFC;
+    max-width: 100vw;
+}
+
+.content-des{
+    border-top: transparent solid 250px;
+}
+
+.selection-tours{
+    padding-top: 80px;
+}
+
+.pagination{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination ul{
+display: flex;
+justify-content: space-around;
+}
+
+.pagination li{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #999;
+    background-color: var(--white-color);
+    color: var(--black-color);
+    font-size:1.6rem;
+    line-height: 40px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0 5px;
+    }
+
+.selection-label{
+    text-align: center;
+}
+
+.selection-label h4{
+margin-bottom: 24px;
+}
+
+.selection-label h2{
+    margin-bottom: 84px;
+}
+
+.selection-item{
+    height: 320px;
+    width: 254px;
+}
+
+.selection-item > div{
+width: 100%;
+height: 100%;
+border-radius: 6px;
+position: relative;
+cursor: pointer;
+
+}
+
+.selection-item-vietnam{
+background: url('https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/place1.jpg') center/cover no-repeat;
+}
+
+.selection-item-philippines{
+background: url('https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/place2.jpg') center/cover no-repeat;
+}
+
+.selection-item-canada{
+background: url('https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/place3.jpg') center/cover no-repeat;
+}
+
+.selection-item-thailand{
+background: url('https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/place4.jpg') center/cover no-repeat;
+}
+
+.selection-item-australia{
+background: url('https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/place5.jpg') center/cover no-repeat;
+}
+
+.selection-item-greece{
+background: url('https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/place6.jpg') center/cover no-repeat;
+}
+
+.selection-item-portugal{
+background: url('https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/place7.jpg') center/cover no-repeat;
+}
+
+.selection-item-italy{
+background: url('https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/place8.jpg') center/cover no-repeat;
+}
+
+.selection-item__local,.selection-item__tours,.selection-item__price,.blog-item__date{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: center;
+}
+
+.selection-item__local,.selection-item__price{
+position: absolute;
+width: 150px;
+height: 36px;
+top: -8px;
+left: 18px;
+}
+
+.selection-item__local::before,.selection-item__price::before,.blog-item__date::before{
+    content: "";
+    position: absolute;
+    left: -8px;
+    top: 0;
+    border-width: 0 0 8px 8px;
+    border-style: solid;
+    border-color: transparent transparent var(--second-color) transparent;
+}
+
+.selection-item__local::after,.selection-item__price::after,.blog-item__date::after{
+    content: "";
+    position: absolute;
+    right: -8px;
+    top: 0;
+    border-width: 0 8px 8px 0;
+    border-style: solid;
+    border-color: transparent transparent var(--second-color) transparent;
+}
+
+.selection-item__tours{
+    position: absolute;
+width: 80px;
+height: 36px;
+right: -8px;
+bottom: 18px;
+font-size: 1.6rem;
+border-top-left-radius: 18px;
+border-bottom-left-radius: 18px;
+transition: all linear 0.2s;
+}
+
+.selection-item__tours::before{
+    content: "";
+    position: absolute;
+    top: -8px;
+    right: 0;
+    border-width: 0 8px 8px 0;
+    border-style: solid;
+    border-color: transparent transparent var(--second-color) transparent;
+}
+
+.selection-item>div:hover .selection-item__tours{
+    width: 100px;
+}
+
+
+
+.selection-destination-2{
+    margin-bottom: 100px;
+
+}
+
+.selection-item-2{
+    height: 430px;
+}
+
+.selection-item-2 > div{
+    padding-top: 80%;
+    position: relative;
+}
+
+.selection-item-1{
+background: url('https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/ticket1.jpg') center/cover no-repeat;
+}
+
+.selection-item--2{
+    background: url('https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/ticket2.jpg') center/cover no-repeat;
+}
+
+.selection-item-3{
+    background: url('https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/ticket3.jpg') center/cover no-repeat;
+}
+
+.selection-item-4{
+    background: url('https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/ticket4.jpg') center/cover no-repeat;
+}
+
+.selection-item-5{
+    background: url('https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/ticket5.jpg') center/cover no-repeat;
+}
+
+.selection-item-6{
+    background: url('https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/ticket6.jpg') center/cover no-repeat;
+}
+
+.selection-item__option,.blog-item__info{
+    width: 90%;
+    height: 170px;
+    background-color: var(--white-color);
+    position: absolute;
+    bottom: -45%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 22px;
+    box-shadow: 0px 10px 23px  rgb(0 0 0 / 10%);
+
+
+}
+
+.selection-item__option > span{
+color: var(--primary-color);
+font-size: 1.2rem;
+font-weight: 700;
+line-height: 2rem;
+}
+
+
+h5{
+    color: var(--text-color);
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 3.8rem;
+    margin: 0;
+    }
+
+.selection-item__option p{
+    color: #999;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    margin: 10px 0;
+}
+
+.option-combo span{
+    color: #b3b3b3;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+margin:0 10px
+
+}
+
+.option-combo i{
+color: var(--primary-color);
+font-size: 1.6rem;
+}
+
+/* about */
+
+
+
+.about-bg{
+    width: 100vw;
+    height: 520px;
+background: url('https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/about-bg.jpg') center/cover no-repeat;
+}
+
+
+.about-img{
+height: 640px;
+background: url('https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/about-img.jpg') center/cover no-repeat;
+border: 15px solid var(--white-color);
+transform: translateY(-15%);
+}
+
+.about-us{
+    border-left: 50px transparent solid;
+}
+
+
+.about-us p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #999;
+}
+
+.about-us button, .blog-quote button{
+background-color: var(--primary-color);
+border-radius: 4px;
+color: var(--white-color);
+font-size: 16px;
+font-weight: 400;
+width: 210px;
+height: 54px;
+border: none;
+outline: none;
+}
+
+/* Blog */
+
+
+.blog-label{
+text-align: center;
+margin-bottom: 70px;
+}
+
+
+.blog-items{
+    height: 390px;
+
+}
+
+.blog-items > div {
+    position: relative;
+    padding-top: 80%;
+}
+
+.blog-item-1{
+background: url('https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/blog1.jpg') center/cover no-repeat;
+}
+
+.blog-item-2{
+background: url('https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/blog2.jpg')center/cover no-repeat;
+}
+
+.blog-item-3{
+background: url('https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/blog3.jpg')center/cover no-repeat;
+}
+
+.blog-item__date{
+    height: 60px;
+    position: absolute;
+    top: -8px;
+    left: 18px;
+    font-size: 1.8rem;
+    line-height: 24px;
+    display: flex;
+    width: 185px;
+    align-items: center;
+}
+
+.blog-item__date span{
+    font-size: 4rem;
+    line-height: 60px;
+    padding: 0 20px;
+    }
+
+    .blog-item__date p{
+margin: 0;
+font-size: 2.2rem;
+    }
+
+.blog-item__info button{
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    color: var(--white-color);
+    font-size: 1.8rem;
+    font-weight: 400;
+    width: 114px;
+    height: 38px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.blog-item__info button:hover{
+    background-color: var(--black-color);
+}
+
+.blog-quote{
+    margin-top: 120px;
+    text-align: center;
+    padding: 50px;
+    height: 240px;
+    background:linear-gradient(rgba(0,0, 0, 0.5), rgba(255, 89, 89, 0.5)), url('https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/ask-bg.jpg') center/cover no-repeat;
+}
+
+.blog-quote h2{
+    color: var(--white-color);
+font-size: 3rem;
+}
+
+.blog-quote p{
+    color: var(--white-color);
+opacity: 0.8;
+font-size: 1.2rem;
+}
+
+button:hover{
+    background-color: var(--black-color);
+    cursor: pointer;
+}
+
+/* contact */
+
+.contact-item{
+    width: 250px;
+    height: 280px;
+    background-color: #c5c5c5;
+    text-align: center;
+    border: #f9fafc solid;
+    border-width: 0 15px;
+    position: relative;
+}
+
+.contact-item i{
+display: block;
+width: 100px;
+height: 100px;
+background-color: var(--primary-color);
+color: var(--white-color);
+font-size: 4rem;
+border-radius: 50%;
+line-height: 100px;
+text-align: center;
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+top: 10%;
+}
+
+.contact-item span{
+    display: block;
+    font-size: 2rem;
+    color: var(--primary-color);
+    position: absolute;
+left: 50%;
+transform: translateX(-50%);
+top: 60%;
+}
+
+.contact-item a{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 80%;
+    }
+
+    .contact-img{
+        border: #f9fafc solid;
+    border-width: 0 15px;
+        height: 540px;
+        background: url('https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/contact.jpg') center/cover no-repeat;
+    }
+
+    .contact-form{
+        border: #f9fafc solid;
+    border-width: 0 15px;
+        height: 540px;
+        background-color: #c5c5c5;
+        text-align: center;
+        padding: 45px;
+    }
+
+    .contact-form input{
+        width: 90%;
+        margin-bottom: 20px;
+        height: 50px;
+        border-radius: 4px;
+        padding-left: 10px;
+        font-size: 1.6rem;
+    }
+
+    .contact-form textarea{
+        width: 90%;
+        margin-bottom: 20px;
+        height: 50px;
+        border-radius: 4px;
+        padding-left: 10px;
+        font-size: 1.6rem;
+    }
+
+    #mess{
+        height: 160px;
+        
+    }
+
+    .contact-form button{
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    font-size: 1.6rem;
+    }
+
+    .selection-contact{
+        border-top: 100px transparent solid;
+    }
+
+
+/* footer */
+
+.footer{
+    border-top: #e7e7e7 solid 1px;
+    margin-top: 110px;
+    height: 650px;
+    background: url('https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/footer.jpg') center/cover no-repeat;
+}
+
+.footer-item{
+    border-right: #e7e7e7 solid 1px;
+}
+
+.footer-item:last-child{
+border: none;
+}
+
+.footer-item h3{
+color: var(--text-color);
+font-size: 1.8rem;
+font-weight: 600;
+line-height: 30px;
+}
+
+.footer-item li{
+padding: 8px;
+}
+
+.footer-item span,a{
+color: rgba(0, 0, 0, 0.5);
+font-size: 1.6rem;
+font-weight: 400;
+line-height: 28px;
+}
+
+li > a:hover{
+    color: var(--primary-color);
+}
+
+.footer-item h3{
+    margin-bottom: 50px;
+}
+
+.footer-item i{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.6rem;
+
+}
+
+.footer-about > div{
+    width: 70%;
+display: flex;
+justify-content: space-around;
+margin-top: 20px;
+}
+
+.footer-about i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-size: 2rem;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.footer > span{
+    margin-top: 60px;
+    font-size: 2.2rem;
+    color: rgba(0, 0, 0, 0.5);
+display: block;
+text-align: center;
+}
+
+
+

@@ -1,0 +1,280 @@
+/* responsive moblie & tablet */
+
+@media (max-width: 1024px){
+
+/* header */
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.7);
+    min-height: 70px;
+    position: fixed;
+    z-index: 10;
+}
+
+.navbar-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.navbar-list{
+    display: none;
+position: absolute;
+top:70px ;
+left: 0;
+background-color: rgba(0, 0, 0, 0.7);
+border-top: 1px solid var(--primary-color);
+width: 100%;
+justify-content: center;
+z-index: 3;
+text-align: center;
+transition:all ease 5s;
+}
+
+.navbar-list a{
+display: block;
+padding: 0;
+line-height: 54px;
+}
+
+.navbar__item{
+height: 100%;
+}
+
+.navbar__item:hover{
+background-color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-tablet-mobie{
+display: block;
+}
+
+/* Search */
+.search-tour{
+display: block;
+}
+
+.search-tour {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.search-tour__item{
+box-shadow: 0px 10px 23px rgb(0 0 0 / 10%);
+border: none;
+}
+
+.search-tour__item{
+    background-color: var(--white-color);
+}
+
+.search-tour > button{
+width: 100%;
+}
+
+
+/* info */
+
+.info{
+    border-top: 400px transparent solid;
+}
+
+.info-content{
+    align-items: center;
+    border-bottom: 90px transparent solid;
+}
+
+.info-img-item{
+    margin-bottom: 30px;
+}
+
+.info-img__wrapper {
+left: 2px;
+}
+
+
+/* selection */
+
+.selection-item-2{
+    height: 360px;
+}
+
+.selection-item__option h5{
+font-size: 2rem;
+}
+
+.selection-item__option span{
+    font-size: 1.4rem;
+    }
+
+    .content-des{
+        border-top: 590px transparent solid;
+    }
+
+    .selection-item__option p {
+        font-size: 1.2rem;
+    }
+    .selection-item__option span {
+        font-size: 1.2rem;
+        margin: 0 5px;
+    }
+
+/* about */
+
+.about-img{
+    margin: 0;
+}
+
+.about-us h4{
+margin-top: 0;
+}
+
+/* footer */
+.footer{
+height: 100vh;
+border: none;
+}
+
+.footer-item{
+    border: none;
+    text-align: center;
+}
+
+.footer-about > div {
+    width: 100%;
+}
+
+.contact-item{
+    margin-bottom: 20px;
+}
+
+}
+
+@media (max-width: 739px){
+
+    h2{
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .search-tour {
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+ .search-tour__item{
+    box-shadow: 0px 10px 23px rgb(0 0 0 / 10%);
+    border: none;
+ }
+
+ .info-img__wrapper {
+    left: -2px;
+}
+
+.selection-item{
+    margin-bottom: 30px;
+}
+
+.selection-item-2{
+    height: 470px;
+}
+
+.about-bg {
+height: 300px;
+}
+
+.about-img {
+    height: 330px;
+}
+
+.info-desc button,.about-us button, .blog-quote button {
+width: 100%;
+}
+
+.info-content {
+    border-bottom: 45px transparent solid;
+}
+
+.selection-tours {
+    padding-top: 45px;
+}
+
+.selection-tours h4{
+margin-top: 0;
+}
+
+.blog-items{
+    height: 440px;
+}
+
+.blog-quote {
+    height: 320px;
+}
+
+.footer{
+    height: fit-content;
+    border-top: 1px solid var(--primary-color);
+    background: url(https://nvvinhb1805939.github.io/pacific-travel/assets/img/photo/footer.jpg) center/cover scroll no-repeat;
+}
+}
+
+
+ @media (min-width: 450px) and (max-width:739px) {
+
+    .selection-item-2{
+        height: 500px;
+    }
+
+    .selection-item__option, .blog-item__info {
+        bottom: -25%;
+    }
+    
+
+} 
+
+@media (max-width:355px) {
+
+    .selection-item__option h5{
+        font-size: 1.7rem;
+        }
+        
+        .selection-item__option span{
+            font-size: 1.2rem;
+            margin: 0 5px;
+            }
+
+            .selection-item__option p{
+                font-size: 1.2rem;
+                margin: 2px 0;
+                }
+
+        .selection-item__option i{
+            font-size: 1.2rem;
+        
+        }
+
+    
+
+} 
+
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .selection-item__option h5{
+        font-size: 1.8rem;
+        }
+        
+        .selection-item__option span{
+            font-size: 1.4rem;
+            margin: 0 5px;
+            }
+
+            .selection-item__option p{
+                font-size: 1.4rem;
+                }
+
+        .selection-item__option i{
+            font-size: 1.4rem;
+        
+        }
+}
